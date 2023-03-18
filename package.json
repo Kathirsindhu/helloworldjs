@@ -1,0 +1,25 @@
+{
+  "name": "helloworldjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "helloworld.js",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node helloworld.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kathirsindhu/helloworldjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kathirsindhu/helloworldjs/issues"
+  },
+  "homepage": "https://github.com/Kathirsindhu/helloworldjs#readme"
+}
+
