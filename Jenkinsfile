@@ -11,7 +11,7 @@ node
        withCredentials([string(credentialsId: 'dochubpass', variable: 'dochubpass')]) {
             sh 'docker login -u kathirsindhu -p ${dochubpass}'
         }
-        sh 'docker push kathirsindhu/newimage:latest'
+        sh 'docker push kathirsindhu/newimage:${buildNumber}'
     }
     stage("docker deploy") {
         sshagent(['dockerserver']) {
